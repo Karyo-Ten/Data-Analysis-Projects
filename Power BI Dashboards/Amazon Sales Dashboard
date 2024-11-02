@@ -1,0 +1,42 @@
+# Amazon Sales Dashboard
+
+This repository contains a Power BI dashboard designed to analyze and visualize Amazon sales data. The dashboard provides a comprehensive view of sales trends, product performance, and returns, with interactive features for easy navigation and data exploration.
+
+### Dashboard Pages
+The dashboard is organized into four pages: Overview, Products, Product_View, and Product_Tooltip.
+
+**Overview :**
+
+1. Features - Includes slicers and a search bar to filter by product category. 
+2. Visualizations - Bar graph showing Sales/Units by City and State.
+3. Purpose - This page provides a high-level overview of sales and units sold across different geographic locations, enabling users to quickly filter and navigate through various product categories.
+
+**Products :**
+
+1. Features - Displays images of products based on the selection in the slicer.
+2. Visualizations - Product images dynamically update to reflect the selected category, helping users visualize the product range.
+3. Purpose - A dedicated page to view and filter products by category, allowing for a visual inspection of product offerings.
+
+**Product_View :**
+1. Features: Displays key metrics such as product category sales, units sold, and returned losses.
+2. Visualizations:
+Line Chart showing Sales by Date.
+Product category breakdown with details on sales, units sold, and return losses.
+Purpose: This page is intended for detailed product performance analysis over time, highlighting trends in sales and identifying potential return-related issues.
+
+**Product_Tooltip :**
+
+1. Features: A tooltip that appears when hovering over a product image in the Products page.
+2. Visualizations:
+Shows additional sales details and other relevant metrics, giving quick insights without navigating away from the Products page.
+Purpose: The tooltip enhances user experience by offering additional information on demand, reducing the need to switch pages.
+How to Use the Dashboard
+Navigate between pages using the tabs at the bottom to explore various data insights.
+Filter by product category in the Overview page to see related data across all pages.
+Hover over product images in the Products page to view the tooltip with additional sales insights.
+Technology
+Power BI: Used to design and implement interactive visualizations, slicers, and tooltips for an intuitive data exploration experience.
+Project Setup
+Download the Power BI file from the repository.
+Open it in Power BI Desktop to explore the interactive dashboard.
+Make sure the data source is properly connected, and refresh the data if necessary.
